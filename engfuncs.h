@@ -1,0 +1,10 @@
+HSPRITE pfnSPR_Load(const char *szPicName);
+struct model_s *LoadMapSprite(const char *filename);
+byte *COM_LoadFile(char *path, int usehunk, int *pLength);
+char *COM_ParseFile(char *data, char *token);
+void COM_FreeFile(void *buffer);
+void HookEvent(char *name, void (*pfnEvent)(struct event_args_s *args));
+int CheckParm(char *parm, char **ppnext);
+int GetScreenInfo(SCREENINFO *pscrinfo);
+void GetPlayerInfo(int ent_num, hud_player_info_t *pinfo);
+void SetCrosshair(HSPRITE hspr, wrect_t rc, int r, int g, int b);

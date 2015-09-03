@@ -1,0 +1,1 @@
+void Master_Init(void);

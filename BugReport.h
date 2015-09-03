@@ -1,0 +1,1 @@
+BOOL BugReport_CreateWindow(void);

@@ -1,0 +1,2066 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="GameUI">
+      <UniqueIdentifier>{6f50c2b6-0ee5-4704-a568-619a155519ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameUI\Options Dialog">
+      <UniqueIdentifier>{8afcd1d6-aa6c-493a-85e7-dd3c7539057a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameUI\Dialogs">
+      <UniqueIdentifier>{56a543b9-5883-4ac6-a240-a52cf8dea89c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameUI\Controls">
+      <UniqueIdentifier>{1f0b8098-52bb-455e-88b5-1e367aa22040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client">
+      <UniqueIdentifier>{7b146864-82e3-4ae8-92c3-4073d1b15494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\hl">
+      <UniqueIdentifier>{2ab9a19e-3603-4378-bcc2-f358eae763f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\vgui">
+      <UniqueIdentifier>{1ad1fe33-d9ee-49e9-a1df-64e9c1d6c570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\vgui\hud">
+      <UniqueIdentifier>{bde4629b-ed82-4501-af3b-50ae66b9de4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\vgui\cstrike">
+      <UniqueIdentifier>{c35d217b-343e-4eb9-88ce-9cab23150997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\vgui\controls">
+      <UniqueIdentifier>{79b292cc-9faf-436c-8677-1d439cac6220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\vgui\buy_presets">
+      <UniqueIdentifier>{1f01236e-bd68-4153-b221-75d30328e14a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\vgui\csbte">
+      <UniqueIdentifier>{8d627771-143b-4126-a2b1-988d6b5fb96e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\buy_presets">
+      <UniqueIdentifier>{c0130606-d1e0-45d8-aae2-5e191795433a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\game_controls">
+      <UniqueIdentifier>{d0827e2d-7144-411f-ba5a-ace0cc765da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\vgui\vgui_controls">
+      <UniqueIdentifier>{ce0dfb2b-445d-4eed-92a6-5d4063448f1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\vgui\Interface">
+      <UniqueIdentifier>{075fa724-f01a-45ef-ae1b-6881fe4c64b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\vgui\Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="SourceSDK">
+      <UniqueIdentifier>{d4e82bf9-819b-4a86-8fec-b56a3463dabb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceSDK\tier1">
+      <UniqueIdentifier>{274da9a6-0fda-44a3-a59a-d0fb3881581a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceSDK\tier0">
+      <UniqueIdentifier>{5a012b82-8647-44c6-913f-49701f5936b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceSDK\vstdlib">
+      <UniqueIdentifier>{4d6ab9db-9db1-4d41-89a1-04d6a9e2e534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerBrowser">
+      <UniqueIdentifier>{5fef9044-e6c9-4bf6-8f46-a07bb68004c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerBrowser\Dialogs">
+      <UniqueIdentifier>{65d19fea-1504-48ad-8e1f-687d8a6a3665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerBrowser\Game Page">
+      <UniqueIdentifier>{ad8fd44e-86fe-4bdb-ae72-50c8a28da43e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerBrowser\Message Handler">
+      <UniqueIdentifier>{70429887-9a39-4870-bcaf-edafae5f4113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerBrowser\Server Response">
+      <UniqueIdentifier>{bb0292dd-f40e-4386-9332-706f9ac73116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{2aca2d2b-7e3e-4c7d-a8a6-70fd26931cea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameUI\BackgroundMenuButton.cpp">
+      <Filter>GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\BasePanel.cpp">
+      <Filter>GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\GameConsole.cpp">
+      <Filter>GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\GameConsoleDialog.cpp">
+      <Filter>GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\GameUI_Interface.cpp">
+      <Filter>GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\LogoFile.cpp">
+      <Filter>GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\ModInfo.cpp">
+      <Filter>GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\PanelListPanel.cpp">
+      <Filter>GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\ScriptObject.cpp">
+      <Filter>GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\OptionsDialog.cpp">
+      <Filter>GameUI\Options Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\OptionsSubAdvanced.cpp">
+      <Filter>GameUI\Options Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\OptionsSubAudio.cpp">
+      <Filter>GameUI\Options Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\OptionsSubKeyboard.cpp">
+      <Filter>GameUI\Options Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\OptionsSubMouse.cpp">
+      <Filter>GameUI\Options Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\OptionsSubMultiplayer.cpp">
+      <Filter>GameUI\Options Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\OptionsSubVideo.cpp">
+      <Filter>GameUI\Options Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\OptionsSubVoice.cpp">
+      <Filter>GameUI\Options Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\CreateMultiplayerGameBotPage.cpp">
+      <Filter>GameUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\CreateMultiplayerGameDialog.cpp">
+      <Filter>GameUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\CreateMultiplayerGameGameplayPage.cpp">
+      <Filter>GameUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\CreateMultiplayerGameServerPage.cpp">
+      <Filter>GameUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\LoadingDialog.cpp">
+      <Filter>GameUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\MultiplayerAdvancedDialog.cpp">
+      <Filter>GameUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\BinkPanel.cpp">
+      <Filter>GameUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\BitmapImagePanel.cpp">
+      <Filter>GameUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\CvarNegateCheckButton.cpp">
+      <Filter>GameUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\CvarSlider.cpp">
+      <Filter>GameUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\CvarTextEntry.cpp">
+      <Filter>GameUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\CvarToggleCheckButton.cpp">
+      <Filter>GameUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\KeyToggleCheckButton.cpp">
+      <Filter>GameUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\LabeledCommandComboBox.cpp">
+      <Filter>GameUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\ToolBar.cpp">
+      <Filter>GameUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\URLButton.cpp">
+      <Filter>GameUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\VControlsListPanel.cpp">
+      <Filter>GameUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\WebExplorer.cpp">
+      <Filter>GameUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\accountbalance.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\ammo.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\ammohistory.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\bartime.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\battery.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\calcscreen.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\cdll_int.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\com_weapons.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\corpse.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\costume.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\CounterStrikeViewport.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\CSBackGroundPanel.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\death.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\demo.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\entity.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\ev_common.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\ev_hldm.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\ev_script.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\events.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\GameStudioModelRenderer.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\graphicmenu.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\headname.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\health.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\hl_weapons.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\hud.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\hud_msg.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\hud_spectator.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\hud_update.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\hud_util.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\in_camera.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\input.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\inputw32.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\interpolation.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\itemstatus.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\links.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\menu.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\message.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\nightvision.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\parsemsg.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\player.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\pm_shared\pm_math.c">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\pm_shared\pm_shared.c">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\radar.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\roundtimer.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\saytext.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\scenariostatus.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\scoreboard.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\shared_util.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\status_icons.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\studio_util.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\StudioModelRenderer.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\text_message.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\thirdperson.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\tri.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\util.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\vgui_int.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\view.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\viewmodel.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\ViewPort.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\ViewPort_Interface.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\weapon_csbase.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\weapons.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\hl\hl_events.cpp">
+      <Filter>Client\hl</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\game_shared\voice_banmgr.cpp">
+      <Filter>Client\hl</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\game_shared\voice_status.cpp">
+      <Filter>Client\hl</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\game_shared\voice_status_hud.cpp">
+      <Filter>Client\hl</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\VGUI\hud_layer.cpp">
+      <Filter>Client\vgui\hud</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\VGUI\hud_menu.cpp">
+      <Filter>Client\vgui\hud</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\VGUI\hud_radar.cpp">
+      <Filter>Client\vgui\hud</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\VGUI\cstrikebuymenu.cpp">
+      <Filter>Client\vgui\cstrike</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\VGUI\cstrikechatdialog.cpp">
+      <Filter>Client\vgui\cstrike</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\VGUI\cstrikeclassmenu.cpp">
+      <Filter>Client\vgui\cstrike</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\VGUI\cstrikeclientscoreboard.cpp">
+      <Filter>Client\vgui\cstrike</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\VGUI\cstrikespectatorgui.cpp">
+      <Filter>Client\vgui\cstrike</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\VGUI\cstriketeammenu.cpp">
+      <Filter>Client\vgui\cstrike</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\VGUI\cstriketextwindow.cpp">
+      <Filter>Client\vgui\cstrike</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\VGUI\buypresetbutton.cpp">
+      <Filter>Client\vgui\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\VGUI\buypreset_imageinfo.cpp">
+      <Filter>Client\vgui\buy_presets</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\VGUI\buypreset_panel.cpp">
+      <Filter>Client\vgui\buy_presets</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\buy_presets\buy_preset.cpp">
+      <Filter>Client\buy_presets</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\buy_presets\buy_preset_debug.cpp">
+      <Filter>Client\buy_presets</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\buy_presets\buy_preset_weapon_info.cpp">
+      <Filter>Client\buy_presets</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\buy_presets\buy_presets.cpp">
+      <Filter>Client\buy_presets</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\game_controls\buymenu.cpp">
+      <Filter>Client\game_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\game_controls\buysubmenu.cpp">
+      <Filter>Client\game_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\VGUI\chatdialog.cpp">
+      <Filter>Client\game_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\game_controls\classmenu.cpp">
+      <Filter>Client\game_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\game_controls\ClientScoreBoardDialog.cpp">
+      <Filter>Client\game_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\game_controls\commandmenu.cpp">
+      <Filter>Client\game_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\game_controls\NavProgress.cpp">
+      <Filter>Client\game_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\game_controls\SpectatorGUI.cpp">
+      <Filter>Client\game_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\game_controls\teammenu.cpp">
+      <Filter>Client\game_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\game_controls\vguitextwindow.cpp">
+      <Filter>Client\game_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\AnalogBar.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\AnimatingImagePanel.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\AnimationController.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\BitmapImagePanel.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\BuildFactoryHelper.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\BuildGroup.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\BuildModeDialog.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\Button.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\CheckButton.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\CheckButtonList.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\ChromeHTML.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\CircularProgressBar.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\ComboBox.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\consoledialog.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\ControllerMap.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\controls.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\DirectorySelectDialog.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\Divider.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\EditablePanel.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\ExpandButton.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\FileOpenDialog.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\FileOpenStateMachine.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\FocusNavGroup.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\Frame.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\GraphPanel.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\HTML.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\Image.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\ImageList.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\ImagePanel.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\InputDialog.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\KeyRepeat.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\Label.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\ListPanel.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\ListViewPanel.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\Menu.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\MenuBar.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\MenuButton.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\MenuItem.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\MessageBox.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\MessageDialog.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\Panel.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\PanelListPanel.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\ProgressBar.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\ProgressBox.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\PropertyDialog.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\PropertyPage.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\PropertySheet.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\QueryBox.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\RadioButton.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\RichText.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\RotatingProgressBar.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\savedocumentquery.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\ScalableImagePanel.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\ScrollableEditablePanel.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\ScrollBar.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\ScrollBarSlider.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\SectionedListPanel.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\Slider.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\Splitter.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\subrectimage.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\TextEntry.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\TextImage.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\ToggleButton.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\Tooltip.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\ToolWindow.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\TreeView.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\TreeViewListControl.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\URLLabel.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\vgui_controls.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\WizardPanel.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="VGUI\vgui_controls\WizardSubPanel.cpp">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\tier1\characterset.cpp">
+      <Filter>SourceSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\filesystem_helpers.cpp">
+      <Filter>SourceSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\tier1\mempool.cpp">
+      <Filter>SourceSDK\tier1</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\tier1\strtools.cpp">
+      <Filter>SourceSDK\tier1</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\tier1\utlbuffer.cpp">
+      <Filter>SourceSDK\tier1</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\tier1\utlstring.cpp">
+      <Filter>SourceSDK\tier1</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\tier1\utlsymbol.cpp">
+      <Filter>SourceSDK\tier1</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\tier0\fasttimer.cpp">
+      <Filter>SourceSDK\tier0</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\tier0\mem.cpp">
+      <Filter>SourceSDK\tier0</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\tier0\mem_helpers.cpp">
+      <Filter>SourceSDK\tier0</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\tier0\memdbg.cpp">
+      <Filter>SourceSDK\tier0</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\tier0\memstd.cpp">
+      <Filter>SourceSDK\tier0</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\tier0\threadtools.cpp">
+      <Filter>SourceSDK\tier0</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\vstdlib\random.cpp">
+      <Filter>SourceSDK\vstdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBrowser\ServerBrowser.cpp">
+      <Filter>ServerBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBrowser\ServerBrowserDialog.cpp">
+      <Filter>ServerBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBrowser\ServerList.cpp">
+      <Filter>ServerBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBrowser\ServerListCompare.cpp">
+      <Filter>ServerBrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBrowser\DialogAddServer.cpp">
+      <Filter>ServerBrowser\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBrowser\DialogGameInfo.cpp">
+      <Filter>ServerBrowser\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBrowser\DialogServerPassword.cpp">
+      <Filter>ServerBrowser\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBrowser\ServerContextMenu.cpp">
+      <Filter>ServerBrowser\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBrowser\BaseGamesPage.cpp">
+      <Filter>ServerBrowser\Game Page</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBrowser\FavoriteGames.cpp">
+      <Filter>ServerBrowser\Game Page</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBrowser\HistoryGames.cpp">
+      <Filter>ServerBrowser\Game Page</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBrowser\InternetGames.cpp">
+      <Filter>ServerBrowser\Game Page</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBrowser\LanGames.cpp">
+      <Filter>ServerBrowser\Game Page</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBrowser\SpectateGames.cpp">
+      <Filter>ServerBrowser\Game Page</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBrowser\GetChallengeMsgHandler.cpp">
+      <Filter>ServerBrowser\Message Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBrowser\LanBroadcastMsgHandler.cpp">
+      <Filter>ServerBrowser\Message Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBrowser\MasterMsgHandler.cpp">
+      <Filter>ServerBrowser\Message Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBrowser\PlayerInfoMsgHandler.cpp">
+      <Filter>ServerBrowser\Message Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBrowser\ServerInfoMsgHandler.cpp">
+      <Filter>ServerBrowser\Message Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBrowser\getchallenge.cpp">
+      <Filter>ServerBrowser\Server Response</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBrowser\playerinfo.cpp">
+      <Filter>ServerBrowser\Server Response</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerBrowser\serverinfo.cpp">
+      <Filter>ServerBrowser\Server Response</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseUI.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Bink.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Border.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="buildnum.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_packet.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Clip2D.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cmd.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="configs.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="crc.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CVARs.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DevMsg.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Encode.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="engfuncs.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="eventapi.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="exportfuncs.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="extdll.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FontAmalgam.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FontTextureCache.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeTypeFont.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="gamma.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="HtmlWindow.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="IceKey.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="IMEInput.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="info.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="HLSDK\common\interface.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyValues.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyValuesSystem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadBMP.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadDDS.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadTGA.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Localize.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LogToFile.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="master.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryBitmap.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mempatchs.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageListener.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="model_util.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="msgbuffer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="msghook.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="netapi.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="NewRegistry.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="perf_counter.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="playaudio.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="plugins.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="qgl.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="r.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="r_muzzleflash.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Scheme.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SecureClient.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SteamAPI.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="steamclient.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="svchook.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="sys.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="tcc\tcc.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="textures.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UnicodeFileHelpers.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="vgui.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="vgui2.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="vgui_key_translation.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Video.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VPanel.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VPanelWrapper.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Font.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowTitle.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="zone.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameUI\BackgroundMenuButton.h">
+      <Filter>GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\BasePanel.h">
+      <Filter>GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\EngineInterface.h">
+      <Filter>GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\GameConsole.h">
+      <Filter>GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\GameConsoleDialog.h">
+      <Filter>GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\GameUI_Interface.h">
+      <Filter>GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\LogoFile.h">
+      <Filter>GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\ModInfo.h">
+      <Filter>GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\PanelListPanel.h">
+      <Filter>GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\ScriptObject.h">
+      <Filter>GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\OptionsDialog.h">
+      <Filter>GameUI\Options Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\OptionsSubAdvanced.h">
+      <Filter>GameUI\Options Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\OptionsSubAudio.h">
+      <Filter>GameUI\Options Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\OptionsSubKeyboard.h">
+      <Filter>GameUI\Options Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\OptionsSubMouse.h">
+      <Filter>GameUI\Options Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\OptionsSubMultiplayer.h">
+      <Filter>GameUI\Options Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\OptionsSubVideo.h">
+      <Filter>GameUI\Options Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\OptionsSubVoice.h">
+      <Filter>GameUI\Options Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\CreateMultiplayerGameBotPage.h">
+      <Filter>GameUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\CreateMultiplayerGameDialog.h">
+      <Filter>GameUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\CreateMultiplayerGameGameplayPage.h">
+      <Filter>GameUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\CreateMultiplayerGameServerPage.h">
+      <Filter>GameUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\LoadingDialog.h">
+      <Filter>GameUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\MultiplayerAdvancedDialog.h">
+      <Filter>GameUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\BinkPanel.h">
+      <Filter>GameUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\BitmapImagePanel.h">
+      <Filter>GameUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\CvarNegateCheckButton.h">
+      <Filter>GameUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\CvarSlider.h">
+      <Filter>GameUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\CvarTextEntry.h">
+      <Filter>GameUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\CvarToggleCheckButton.h">
+      <Filter>GameUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\KeyToggleCheckButton.h">
+      <Filter>GameUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\LabeledCommandComboBox.h">
+      <Filter>GameUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\ToolBar.h">
+      <Filter>GameUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\URLButton.h">
+      <Filter>GameUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\VControlsListPanel.h">
+      <Filter>GameUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\WebExplorer.h">
+      <Filter>GameUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\ammo.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\ammohistory.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\BackGroundPanel.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\BaseViewport.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\calcscreen.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\camera.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="cdll_dll.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\cl_dll.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\cl_util.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\com_weapons.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\corpse.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\costume.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\CounterStrikeViewport.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\CSBackGroundPanel.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\demo.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\ev_hldm.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\events.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\eventscripts.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\GameStudioModelRenderer.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\graphicmenu.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\headname.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\health.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\hud.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\hud_spectator.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\hud_util.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\in_defs.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\inputw32.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\interpolation.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\kbutton.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\links.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\nightvision.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\parsemsg.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\player.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\radar.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\scoreboard.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\shared_util.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\studio_util.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\StudioModelRenderer.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\TeamFortressViewport.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\thirdperson.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\tri.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\vgui_int.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\VGuiLibrary.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\view.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\viewmodel.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\ViewPort.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\ViewPortPanel.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\weapon_csbase.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\weapons.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\game_shared\voice_banmgr.h">
+      <Filter>Client\hl</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\game_shared\voice_common.h">
+      <Filter>Client\hl</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\game_shared\voice_status.h">
+      <Filter>Client\hl</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\game_shared\voice_status_hud.h">
+      <Filter>Client\hl</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\VGUI\hud_element.h">
+      <Filter>Client\vgui\hud</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\VGUI\hud_layer.h">
+      <Filter>Client\vgui\hud</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\VGUI\hud_menu.h">
+      <Filter>Client\vgui\hud</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\VGUI\hud_radar.h">
+      <Filter>Client\vgui\hud</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\VGUI\cstrikebuymenu.h">
+      <Filter>Client\vgui\cstrike</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\VGUI\cstrikebuysubmenu.h">
+      <Filter>Client\vgui\cstrike</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\VGUI\cstrikechatdialog.h">
+      <Filter>Client\vgui\cstrike</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\VGUI\cstrikeclassmenu.h">
+      <Filter>Client\vgui\cstrike</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\VGUI\cstrikeclientscoreboard.h">
+      <Filter>Client\vgui\cstrike</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\VGUI\cstrikespectatorgui.h">
+      <Filter>Client\vgui\cstrike</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\VGUI\cstriketeammenu.h">
+      <Filter>Client\vgui\cstrike</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\VGUI\cstriketextwindow.h">
+      <Filter>Client\vgui\cstrike</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\VGUI\buymouseoverpanelbutton.h">
+      <Filter>Client\vgui\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\VGUI\buypresetbutton.h">
+      <Filter>Client\vgui\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\VGUI\newmouseoverpanelbutton.h">
+      <Filter>Client\vgui\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\VGUI\buypreset_weaponsetlabel.h">
+      <Filter>Client\vgui\buy_presets</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\buy_presets\buy_preset_debug.h">
+      <Filter>Client\buy_presets</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\buy_presets\buy_presets.h">
+      <Filter>Client\buy_presets</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\game_controls\buymenu.h">
+      <Filter>Client\game_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\game_controls\buysubmenu.h">
+      <Filter>Client\game_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\VGUI\chatdialog.h">
+      <Filter>Client\game_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\game_controls\classmenu.h">
+      <Filter>Client\game_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\game_controls\ClientScoreBoardDialog.h">
+      <Filter>Client\game_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\game_controls\commandmenu.h">
+      <Filter>Client\game_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\game_controls\mouseoverpanelbutton.h">
+      <Filter>Client\game_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\game_controls\NavProgress.h">
+      <Filter>Client\game_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\game_controls\SpectatorGUI.h">
+      <Filter>Client\game_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\game_controls\teammenu.h">
+      <Filter>Client\game_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\game_controls\vguitextwindow.h">
+      <Filter>Client\game_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\AnalogBar.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\AnimatingImagePanel.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\AnimationController.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\BitmapImagePanel.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\BuildGroup.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\BuildModeDialog.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\Button.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\CheckButton.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\CheckButtonList.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\ChromeHTML.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\CircularProgressBar.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\ComboBox.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\consoledialog.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\ControllerMap.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\Controls.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\DialogManager.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\DirectorySelectDialog.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\Divider.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\EditablePanel.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\ExpandButton.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\FileOpenDialog.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\FileOpenStateMachine.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\FocusNavGroup.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\Frame.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\GraphPanel.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\HTML.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\Image.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\ImageList.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\ImagePanel.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\InputDialog.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\KeyBindingMap.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\KeyRepeat.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\Label.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\ListPanel.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\ListViewPanel.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\Menu.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\MenuBar.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\MenuButton.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\MenuItem.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\MessageBox.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\MessageDialog.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\MessageMap.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\Panel.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\PanelAnimationVar.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\PanelListPanel.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\pch_vgui_controls.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\PHandle.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\ProgressBar.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\ProgressBox.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\PropertyDialog.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\PropertyPage.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\PropertySheet.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\QueryBox.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\RadioButton.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\RichText.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\RotatingProgressBar.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\savedocumentquery.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\ScalableImagePanel.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\ScrollableEditablePanel.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\ScrollBar.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\ScrollBarSlider.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\SectionedListPanel.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\Slider.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\Splitter.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\subrectimage.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\TextEntry.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\TextImage.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\ToggleButton.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\Tooltip.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\ToolWindow.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\TreeView.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\TreeViewListControl.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\URLLabel.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\WizardPanel.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\vgui_controls\WizardSubPanel.h">
+      <Filter>Client\vgui\vgui_controls</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\IBorder.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\IClientPanel.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\IEngineVGui.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\IHTML.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\IImage.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\IInput.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\IInputInternal.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\ILocalize.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\INewSurface.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\IPanel.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\IScheme.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\ISurface.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\ISystem.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\IVGui.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\Cursor.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\Dar.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\KeyCode.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\MouseCode.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\OLDDar.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\Vector.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\Vector2D.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VGUI\VGUI.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseUI.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Bink.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Border.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="buildnum.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Clip2D.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="configs.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="crc.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CVARs.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DevMsg.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Encode.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="engfuncs.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="eventapi.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="exportfuncs.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="extdll.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FontAmalgam.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FontTextureCache.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeTypeFont.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="gamma.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="HtmlWindow.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="IceKey.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="IDA.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="IMEInput.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="IMessageListener.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="info.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyValues.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyValuesSystem.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadBMP.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadDDS.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadTGA.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LogToFile.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="master.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="memdbg.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Memorybitmap.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="mempatchs.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="metahook.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="minidump.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="model_util.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Modules.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="msgbuffer.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="msghook.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="NewRegistry.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="perf_counter.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="playaudio.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="plugins.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="proto_oob.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="proto_version.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="qgl.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="r.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SecureClient.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="sizebuf.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SteamAPI.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="steamclient.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="svchook.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="sys.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="textures.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="UnicodeFileHelpers.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="vgui_hook.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="vgui_internal.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="vgui_key_translation.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Video.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VPanel.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Font.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowTitle.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="winlite.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="zone.h">
+      <Filter>Client\vgui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IBaseUI.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\ICareerUI.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IChromeHTMLWrapper.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IClientVGui.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IEngineSurface.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IFileSystem.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IGameConsole.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IGameList.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IGameUI.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IGameUIFuncs.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IHTMLChrome.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IKeyValuesSystem.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\INetAPI.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IPaintHTML.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IPlugins.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IPluginsV1.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IRenderer.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IResponse.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IServerBrowser.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IServerGetChallengeResponse.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IServerPlayersResponse.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IServerRefreshResponse.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\ISteamApps.h">
+      <Filter>Client\vgui\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBrowser\EngineInterface.h">
+      <Filter>ServerBrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBrowser\server.h">
+      <Filter>ServerBrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBrowser\ServerBrowser.h">
+      <Filter>ServerBrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBrowser\ServerBrowserDialog.h">
+      <Filter>ServerBrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBrowser\ServerList.h">
+      <Filter>ServerBrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBrowser\ServerListCompare.h">
+      <Filter>ServerBrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBrowser\DialogAddServer.h">
+      <Filter>ServerBrowser\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBrowser\DialogGameInfo.h">
+      <Filter>ServerBrowser\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBrowser\DialogServerPassword.h">
+      <Filter>ServerBrowser\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBrowser\ServerContextMenu.h">
+      <Filter>ServerBrowser\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBrowser\BaseGamesPage.h">
+      <Filter>ServerBrowser\Game Page</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBrowser\FavoriteGames.h">
+      <Filter>ServerBrowser\Game Page</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBrowser\HistoryGames.h">
+      <Filter>ServerBrowser\Game Page</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBrowser\InternetGames.h">
+      <Filter>ServerBrowser\Game Page</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBrowser\LanGames.h">
+      <Filter>ServerBrowser\Game Page</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBrowser\SpectateGames.h">
+      <Filter>ServerBrowser\Game Page</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBrowser\GetChallengeMsgHandler.h">
+      <Filter>ServerBrowser\Message Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBrowser\LanBroadcastMsgHandler.h">
+      <Filter>ServerBrowser\Message Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBrowser\MasterMsgHandler.h">
+      <Filter>ServerBrowser\Message Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBrowser\PlayerInfoMsgHandler.h">
+      <Filter>ServerBrowser\Message Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBrowser\ServerInfoMsgHandler.h">
+      <Filter>ServerBrowser\Message Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBrowser\getchallenge.h">
+      <Filter>ServerBrowser\Server Response</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBrowser\playerinfo.h">
+      <Filter>ServerBrowser\Server Response</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerBrowser\serverinfo.h">
+      <Filter>ServerBrowser\Server Response</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Library\freetype\freetype.lib">
+      <Filter>Library</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

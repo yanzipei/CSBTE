@@ -1,0 +1,1 @@
+bool LoadDDS(const char *szFilename, byte *buffer, int bufferSize, int *width, int *height);
